@@ -14,21 +14,6 @@ public class Park {
 		return j;
 	}
 	
-	static int sum(int[] v) {
-		int p = 0;
-		int k = 0;
-		while (p < v.length){
-			int j = v[p];
-			p = p + 1;
-			if(j % 2 == 0){
-				k = k + j;
-			}
-		}
-		
-		
-		return k;
-	}
-	
 	static int strike(int[] com, int[] my) {
 		int s = 0;
 		for(int j = 0; j < com.length; j++){
