@@ -52,13 +52,5 @@ public class Park {
 			int n = j[h];
 			System.out.println(" 컴퓨터가 썩은 값 " + n );
 		}
-		
-//		int h = 0;
-//		while(h < j.length ){
-//			int n = j[h];
-//			System.out.println(" 컴퓨터가 썩은 값 " + n );
-//			h++;
-//		}
-		
 	}
 }
